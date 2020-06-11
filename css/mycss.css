@@ -1,0 +1,95 @@
+#container {
+    background-color:#089;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+   align-items:center; 
+  }
+  
+  #quote-box {
+    background-color:white;
+    margin: auto;
+    margin-top: 50px;
+    width: 45%;
+    
+  }
+  .buttons{
+    padding-bottom: 30px;
+    margin-top:30px;
+    margin-left: 30px;
+  
+  }
+  
+  .btn {
+    width: 50px;
+    margin-right: 6px;
+  }
+  #new-quote{
+    width: 100px;
+    margin-left: 50%;
+  }
+  #new-quote,.btn {
+  background-color: #089;
+    color:white;
+   transition: all .3s; 
+  
+  }
+  .btn:hover {
+    transform: scale(1.2);
+    color: white !important;
+  }
+  
+  #new-quote:hover{
+    transform: scale(1.2);
+  }
+  
+  #mount{
+    padding-top: 50px;
+    padding-left: 10px;
+    color: #089;
+  }
+  #author{
+    display:inline;
+  }
+  #author-hyphen{
+   margin-top: 50px; 
+    margin-left: 75%;
+    margin-right:10px;
+  }
+  #text,.fa {
+    font-size: 25px;
+    display: inline;
+    font-weight: 700;
+  }
+  
+  .footer-div{
+  height: 10px;
+    margin-top: 8px;
+  }
+  #footer{
+    color:white;
+    font-size: 16px;
+    text-decoration: none;
+    
+    
+  }
+  @media screen and (max-width:700px)
+  {
+    #container { 
+      width: 100%;
+    
+    }
+    
+    #quote-box {
+    width: 350px;
+    }
+  
+    #new-quote{
+    margin-left: 200px;
+      margin-top:-55px;
+      width: 80px;
+  }
+    .buttons{
+  margin-left: 30px;
+    }
+  } 
